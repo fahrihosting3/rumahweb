@@ -15,7 +15,7 @@ export default function Dashboard() {
   useEffect(() => {
     const current = getCurrentUser();
     if (!current) {
-      router.push("/login");
+      router.push("/auth/login");
       return;
     }
     setUser(current);
