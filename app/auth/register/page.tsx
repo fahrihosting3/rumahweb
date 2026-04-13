@@ -89,7 +89,7 @@ export default function RegisterPage() {
 
           <p className="text-center mt-6 text-sm">
             Sudah punya akun?{" "}
-            <Link href="/login" className="text-violet-600 font-medium hover:underline">
+            <Link href="/auth/login" className="text-violet-600 font-medium hover:underline">
               Masuk di sini
             </Link>
           </p>
