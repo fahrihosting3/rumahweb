@@ -70,7 +70,7 @@ export default function LoginPage() {
 
           <p className="text-center mt-6 text-sm">
             Belum punya akun?{" "}
-            <Link href="/register" className="text-violet-600 font-medium hover:underline">
+            <Link href="/auth/register" className="text-violet-600 font-medium hover:underline">
               Daftar di sini
             </Link>
           </p>
