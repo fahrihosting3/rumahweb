@@ -24,13 +24,13 @@ export default function Hero() {
 
         <div className="flex gap-4 justify-center">
           <button
-            onClick={() => router.push("/register")}
+            onClick={() => router.push("/auth/register")}
             className="px-10 py-5 bg-white text-violet-700 font-semibold text-lg rounded-3xl hover:scale-105 transition flex items-center gap-3"
           >
             Daftar Sekarang <ArrowRight />
           </button>
           <button
-            onClick={() => router.push("/login")}
+            onClick={() => router.push("/auth/login")}
             className="px-10 py-5 border-2 border-white/80 font-semibold text-lg rounded-3xl hover:bg-white/10 transition"
           >
             Login ke Panel

@@ -48,13 +48,13 @@ export default function Navbar() {
           ) : (
             <>
               <button
-                onClick={() => router.push("/login")}
+                onClick={() => router.push("/auth/login")}
                 className="px-6 py-2.5 border border-violet-600 text-violet-600 hover:bg-violet-50 rounded-2xl transition"
               >
                 Masuk
               </button>
               <button
-                onClick={() => router.push("/register")}
+                onClick={() => router.push("/auth/register")}
                 className="px-6 py-2.5 bg-violet-600 text-white hover:bg-violet-700 rounded-2xl transition"
               >
                 Daftar Gratis
